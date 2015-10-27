@@ -1,3 +1,37 @@
+nav {
+  margin-top: 3%;
+  text-align: center;
+}
+nav li {
+  display: inline-block;
+  background-color: pink;
+  padding: 0.5%;
+  margin-left: 2%;
+}
+nav a {
+  text-decoration: none;
+  color: red;
+}
+header {
+  background-color: #eee;
+}
+header h1 {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+header .headerRight {
+  float: right;
+}
+h1 {
+  color: red;
+}
 body {
-  color: #ff0080;
+  background-image: url("../imgs/bgimg.png");
+  font-family: sans-serif;
+}
+section {
+  background-color: pink;
+}
+section .mainContent {
+  text-decoration: none;
 }

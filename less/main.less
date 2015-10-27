@@ -1,5 +1,21 @@
-@color: blue;
+@import "less/nav";
+@import "less/header";
+
+@color: red;
+
+h1{
+	color:@color;
+}
 
 body{
-	color: spin(@color, 90);
+	background-image: url("../imgs/bgimg.png");
+	font-family: sans-serif;
 }
+section{
+	background-color: pink;
+	.mainContent{
+		text-decoration: none;	
+	}
+}
+
+
