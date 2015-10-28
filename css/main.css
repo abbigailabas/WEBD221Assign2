@@ -35,3 +35,22 @@ section {
 section .mainContent {
   text-decoration: none;
 }
+aside {
+  background-color: purple;
+}
+table {
+  background-color: #098765;
+}
+footer {
+  clear: both;
+}
+.mainContent {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.pageWrapper {
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+}
