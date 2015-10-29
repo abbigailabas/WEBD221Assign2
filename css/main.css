@@ -15,9 +15,10 @@ nav a {
   color: red;
 }
 header {
-  background-color: #eee;
+  background-color: #fff;
   margin: 0%;
   padding: 0%;
+  border-bottom: 1px solid black;
 }
 h1 {
   color: red;
@@ -29,15 +30,15 @@ hr {
   margin: 10% 0%;
 }
 body {
-  background-image: url("../imgs/bgimg2.jpg");
+  background-color: #fff;
   font-family: sans-serif;
 }
-section {
-  background-color: pink;
+.pageWrapper {
+  background-color: #F7F7F7;
 }
 aside {
   padding: 2%;
-  background-color: purple;
+  background-color: #AFC5D2;
   height: 475px;
 }
 table {
@@ -81,7 +82,8 @@ input[type="reset"] {
   font-size: 14px;
 }
 footer {
-  background-color: orange;
+  background-color: #C0DCF5;
+  margin-top: 3%;
 }
 .mainContent {
   display: -webkit-flex;
@@ -98,8 +100,7 @@ footer {
   display: flex;
 }
 .footerContent div {
-  padding: 1%;
-  margin: 1%;
+  padding-top: 1%;
   margin: 0 auto;
 }
 .footSocial {
@@ -114,7 +115,6 @@ footer {
 }
 .content p,
 .content h3 {
-  text-align: center;
   margin-top: 3%;
 }
 .pageWrapper {
