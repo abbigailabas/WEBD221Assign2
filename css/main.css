@@ -93,7 +93,19 @@ footer {
   width: 100%;
 }
 .footerContent {
-  margin-top: 2%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.footerContent div {
+  padding: 1%;
+  margin: 1%;
+  margin: 0 auto;
+}
+.footSocial {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
 }
 .content {
   width: 70%;
