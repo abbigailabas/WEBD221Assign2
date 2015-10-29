@@ -49,6 +49,9 @@ table td {
   margin: 1%;
   padding: 3%;
 }
+table th {
+  padding-left: 3%;
+}
 footer {
   background-color: orange;
 }
@@ -68,6 +71,10 @@ footer {
   width: 70%;
   padding: 4%;
   margin: 0 auto;
+}
+.content p {
+  text-align: center;
+  margin-top: 5%;
 }
 .pageWrapper {
   width: 70%;
