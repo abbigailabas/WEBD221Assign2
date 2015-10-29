@@ -8,7 +8,9 @@ h1{
 	text-align: center;
 	padding:2%;
 }
-
+hr{
+	border-bottom: 1px solid black;
+}
 body{
 	background-image: url("../imgs/bgimg.png");
 	font-family: sans-serif;
@@ -19,18 +21,17 @@ section{
 aside{
 	padding: 2%;
 	background-color: purple;
-	width:70%%;
+	height: inherit;
 }
 table{
-	width:100%;
+	width:80%;
 	border-collapse: collapse;
-	text-align: left;
-	background-color: #098765;
+	//background-color: #098765;
 	td{
-		width: 30%;
+		width: 10%;
 		margin: 1%;
 		padding: 2%;
-		background-color: blue;
+		//background-color: blue;
 	}
 }
 footer{
@@ -38,10 +39,20 @@ footer{
 }
 .mainContent{
 	display: flex;
+	flex-direction: row;
 	width:100%;
+}
+.content{
+	width: 70%;
+	padding: 4%;
+	margin: 0 auto;
 }
 .pageWrapper{
 	background-color: white;
 	width: 70%;
 	margin: 0 auto;
+}
+.registerContent{
+	width:100%;
+	padding: 1%;
 }

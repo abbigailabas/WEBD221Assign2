@@ -1,11 +1,13 @@
 nav {
-  margin-top: 3%;
   text-align: center;
+}
+nav ul {
+  padding: 2% 1%;
 }
 nav li {
   display: inline-block;
   background-color: pink;
-  padding: 0.5%;
+  padding: 1%;
   margin-left: 2%;
 }
 nav a {
@@ -14,18 +16,16 @@ nav a {
 }
 header {
   background-color: #eee;
-}
-header h1 {
-  margin-top: 2%;
-  margin-left: 2%;
-}
-header .headerRight {
-  float: right;
+  margin: 0%;
+  padding: 0%;
 }
 h1 {
   color: red;
   text-align: center;
   padding: 2%;
+}
+hr {
+  border-bottom: 1px solid black;
 }
 body {
   background-image: url("../imgs/bgimg.png");
@@ -37,19 +37,16 @@ section {
 aside {
   padding: 2%;
   background-color: purple;
-  width: 70%%;
+  height: inherit;
 }
 table {
-  width: 100%;
+  width: 80%;
   border-collapse: collapse;
-  text-align: left;
-  background-color: #098765;
 }
 table td {
-  width: 30%;
+  width: 10%;
   margin: 1%;
   padding: 2%;
-  background-color: blue;
 }
 footer {
   background-color: orange;
@@ -58,10 +55,22 @@ footer {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   width: 100%;
+}
+.content {
+  width: 70%;
+  padding: 4%;
+  margin: 0 auto;
 }
 .pageWrapper {
   background-color: white;
   width: 70%;
   margin: 0 auto;
+}
+.registerContent {
+  width: 100%;
+  padding: 1%;
 }
