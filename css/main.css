@@ -24,36 +24,6 @@ header {
 .pageWrapper {
   background-color: #F7F7F7;
 }
-h1 {
-  text-align: center;
-  padding: 2%;
-}
-hr {
-  border-bottom: 1px solid black;
-  margin: 10% 0%;
-}
-body {
-  background-color: #fff;
-  font-family: sans-serif;
-}
-aside {
-  padding: 2%;
-  background-color: #C0DCF5;
-  height: 475px;
-}
-table {
-  width: 80%;
-  border-collapse: collapse;
-  text-align: left;
-}
-table td {
-  width: 10%;
-  margin: 1%;
-  padding: 3%;
-}
-table th {
-  padding-left: 3%;
-}
 .icon {
   height: 40px;
   width: 40px;
@@ -61,31 +31,6 @@ table th {
 .mapImg {
   width: 150px;
   height: 100px;
-}
-form {
-  background-color: #A4B6C5;
-  padding: 2%;
-  margin: 2%;
-}
-form label,
-form input,
-form textarea {
-  padding: 1%;
-  margin: 2%;
-}
-input[type="submit"],
-input[type="reset"],
-.backToTop {
-  border-radius: 30px;
-  border: 1px solid black;
-  background-color: #C0DCF5;
-  padding: 2%;
-  font-size: 14px;
-  text-decoration: none;
-}
-footer {
-  background-color: #C0DCF5;
-  margin-top: 3%;
 }
 .mainContent {
   display: -webkit-flex;
@@ -126,4 +71,59 @@ footer {
 .registerContent {
   width: 100%;
   padding: 1%;
+}
+form {
+  background-color: #A4B6C5;
+  padding: 2%;
+  margin: 2%;
+}
+form label,
+form input,
+form textarea {
+  padding: 1%;
+  margin: 2%;
+}
+input[type="submit"],
+input[type="reset"],
+.backToTop {
+  border-radius: 30px;
+  border: 1px solid black;
+  background-color: #C0DCF5;
+  padding: 2%;
+  font-size: 14px;
+  text-decoration: none;
+}
+h1 {
+  text-align: center;
+  padding: 2%;
+}
+hr {
+  border-bottom: 1px solid black;
+  margin: 10% 0%;
+}
+body {
+  background-color: #fff;
+  font-family: sans-serif;
+}
+aside {
+  padding: 2%;
+  background-color: #C0DCF5;
+  height: 475px;
+}
+table {
+  width: 80%;
+  border-collapse: collapse;
+  text-align: left;
+}
+table td {
+  width: 10%;
+  margin: 1%;
+  padding: 3%;
+}
+table th {
+  padding-left: 3%;
+}
+footer {
+  background-color: #C0DCF5;
+  margin-top: 3%;
 }
