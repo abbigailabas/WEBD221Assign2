@@ -8,6 +8,7 @@ nav li {
   display: inline-block;
   background-color: #C0DCF5;
   border-radius: 5px;
+  border: 1px solid black;
   padding: 1%;
   margin-left: 2%;
 }
@@ -20,6 +21,9 @@ header {
   padding: 0%;
   border-bottom: 1px solid black;
 }
+.pageWrapper {
+  background-color: #F7F7F7;
+}
 h1 {
   text-align: center;
   padding: 2%;
@@ -31,9 +35,6 @@ hr {
 body {
   background-color: #fff;
   font-family: sans-serif;
-}
-.pageWrapper {
-  background-color: #F7F7F7;
 }
 aside {
   padding: 2%;
