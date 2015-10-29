@@ -24,6 +24,8 @@ header .headerRight {
 }
 h1 {
   color: red;
+  text-align: center;
+  padding: 2%;
 }
 body {
   background-image: url("../imgs/bgimg.png");
@@ -32,22 +34,31 @@ body {
 section {
   background-color: pink;
 }
-section .mainContent {
-  text-decoration: none;
-}
 aside {
+  padding: 2%;
   background-color: purple;
+  width: 70%%;
 }
 table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
   background-color: #098765;
 }
+table td {
+  width: 30%;
+  margin: 1%;
+  padding: 2%;
+  background-color: blue;
+}
 footer {
-  clear: both;
+  background-color: orange;
 }
 .mainContent {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
 }
 .pageWrapper {
   background-color: white;
