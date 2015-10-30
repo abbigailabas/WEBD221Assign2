@@ -27,6 +27,9 @@ header {
 .pageWrapper {
   background-color: #F7F7F7;
 }
+.backToTop {
+  margin: 4%;
+}
 .icon {
   height: 40px;
   width: 40px;
