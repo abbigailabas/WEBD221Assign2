@@ -12,6 +12,9 @@ nav li {
   padding: 1%;
   margin-left: 2%;
 }
+nav li:hover {
+  background-color: #4691D0;
+}
 nav a {
   text-decoration: none;
 }
@@ -93,6 +96,11 @@ input[type="reset"],
   text-decoration: none;
   width: 90px;
 }
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+.backToTop:hover {
+  background-color: #4691D0;
+}
 .formBtn {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -111,6 +119,10 @@ table td {
 }
 table th {
   padding-left: 3%;
+}
+.contactEnd {
+  text-align: center;
+  padding-top: 5%;
 }
 h1 {
   text-align: center;
