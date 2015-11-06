@@ -1,39 +1,61 @@
-@import "less/nav";
-@import "less/header";
-@import "less/classes";
-@import "less/form";
-@import "table.less";
 
-
-h1{
-	text-align: center;
-	padding:2%;
-}
-hr{
-	border-bottom: 1px solid black;
-	margin: 10% 0%;
-}
-body{
-	background-color: #fff;
-	font-family: sans-serif;
-	background-image: url("../imgs/bgimg.png");
-}
-aside{
-	padding: 2%;
-	background-color: @blueColor;
-	height: 475px;
-}
-footer{
-	background-color: @blueColor;
-	margin-top: 3%;
-}
-//I left these on their own becaseu they 
-//are really short and i didnt want to make
-//a seperate style sheet for just a  couple
-//of lines.
 
 //VARIALBES
 @hoverColor: #4691D0;
 @blueColor : #C0DCF5;
 @pageWrapperColor: #F7F7F7;
 @headerColor: #fff;
+
+
+//MIXINS
+.FlexBox{
+	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+}
+//FLEX ROW
+.FlexDirectionRow{
+	-webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+
+
+h1{
+	text-align: center;
+	padding:2%;
+}
+
+hr{
+	border-bottom: 1px solid black;
+	margin: 10% 0%;
+}
+
+body{
+	background-color: #fff;
+	font-family: sans-serif;
+	background-image: url("../imgs/bgimg.png");
+}
+
+aside{
+	padding: 2%;
+	background-color: @blueColor;
+	height: 475px;
+}
+
+footer{
+	background-color: @blueColor;
+	margin-top: 3%;
+}
+
+
+
+
+
+@import "nav.less";
+@import "header.less";
+@import "classes.less";
+@import "form.less";
+@import "table.less";
+
