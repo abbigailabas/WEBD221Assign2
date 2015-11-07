@@ -1,12 +1,16 @@
 .pageWrapper{
 	background-color: @pageWrapperColor;
+	width: 70%;
+	margin: 0 auto;
 }
 .backToTop{
 	margin: 4%;
 }
+// -- IMGS
 .icon{
 	height: 40px;
 	width: 40px;
+	margin: 3%;
 	&:hover{
 		border: 1px solid @blueColor;
 	}
@@ -15,13 +19,16 @@
 	width:150px;
 	height:100px;
 }
+
 .mainContent{
 	.FlexBox;
 	flex-direction: row;
 	width:100%;
 }
+// -- FOOTER
 .footerContent{
 	display: flex;
+	padding:3%;
 	div{
 		padding-top: 1%;
 		margin: 0 auto;
@@ -37,10 +44,6 @@
 	p, h3{
 		margin-top: 3%;
 	}
-}
-.pageWrapper{
-	width: 70%;
-	margin: 0 auto;
 }
 .registerContent{
 	width:100%;
